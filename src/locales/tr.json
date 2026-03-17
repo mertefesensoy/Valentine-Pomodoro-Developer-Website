@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "features": "Özellikler",
+    "screenshots": "Ekran Görüntüleri",
+    "tech": "Teknoloji",
+    "privacy": "Gizlilik",
+    "download": "İndir"
+  },
+  "hero": {
+    "title": "Valentine Pomodoro",
+    "tagline": "Sevgiyle yapılmış bir Pomodoro zamanlayıcısı",
+    "subtitle": "Odaklan. Mola ver. Sevgi hisset.",
+    "downloadIos": "App Store'dan İndir",
+    "builtFor": "Bengisu için ♥ ile yapıldı",
+    "version": "Sürüm 1.2.4"
+  },
+  "features": {
+    "title": "Özellikler",
+    "subtitle": "Verimli ve sevgi dolu odak seansları için ihtiyacınız olan her şey",
+    "items": [
+      {
+        "title": "Kaymasız Zamanlayıcı",
+        "desc": "Zaman damgası tabanlı motor, uygulama arka planda olsa bile doğru çalışmaya devam eder. Hiç saniye kaybı yok."
+      },
+      {
+        "title": "Sevgi Notları",
+        "desc": "Her odak seansının ardından kişiselleştirilmiş mesajlar sizi motive eder ve gülümsetir."
+      },
+      {
+        "title": "İstatistik ve Seriler",
+        "desc": "Günlük hedefleri takip edin, 7 günlük grafikleri görüntüleyin ve odak serilerinizi koruyun."
+      },
+      {
+        "title": "Karanlık Mod",
+        "desc": "Sistem uyumlu tam karanlık tema, sıcak kırmızı ve lavanta tonlarıyla gözlere yorgunluk vermez."
+      },
+      {
+        "title": "Tamamen Gizli",
+        "desc": "Sunucu yok, takip yok, hesap yok. Tüm veriler cihazınızda AsyncStorage'da saklanır."
+      },
+      {
+        "title": "Tamamen Özelleştirilebilir",
+        "desc": "Zamanlayıcı sürelerini, titreşimi, hatırlatıcıları ve bildirim seslerini akışınıza göre ayarlayın."
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "Uygulama Ekranları",
+    "subtitle": "Her ekranda güzel, odaklanmış bir deneyim",
+    "screens": ["Zamanlayıcı", "İstatistikler", "Sevgi Notları", "Ayarlar"]
+  },
+  "tech": {
+    "title": "Arka Planda Ne Var?",
+    "subtitle": "Modern mobil teknolojilerle geliştirildi",
+    "version": "Sürüm",
+    "stack": "Teknoloji Yığını",
+    "decisions": "Mimari Kararlar",
+    "decisionItems": [
+      "Zaman damgası tabanlı zamanlayıcı — arka planda setInterval kaymasına karşı bağışık",
+      "Idempotency takibi — tamamlanan seansların çift sayılmasını önler",
+      "Reklam kuyruğu yönetimi — sevgi notları, reklamlar ve açılır pencereler için çakışmasız katmanlar",
+      "Gece yarısı atıfı — gece yarısından önce başlayan seanslar doğru güne sayılır"
+    ],
+    "github": "GitHub'da Kaynağı Gör",
+    "openSource": "Açık Kaynak"
+  },
+  "privacySection": {
+    "title": "Gizliliğiniz Önemli",
+    "desc": "Valentine Pomodoro hiç veri toplamaz. Odak seanslarınız, sevgi notlarınız, serileriniz — her şey her zaman cihazınızda kalır.",
+    "readMore": "Tam Gizlilik Politikasını Oku"
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son güncelleme: Mart 2026",
+    "intro": "Valentine Pomodoro, %100 yerel bir uygulamadır. Harici sunucularda herhangi bir kişisel veri toplamıyor, iletmiyor veya depolamıyoruz.",
+    "sections": [
+      {
+        "title": "Veri Toplama",
+        "content": "Herhangi bir kişisel bilgi toplamıyoruz. Zamanlayıcı ayarları, istatistikler, sevgi notları ve tercihler dahil tüm uygulama verileri, cihazınızda AsyncStorage kullanılarak yerel olarak depolanır ve cihazınızdan hiçbir zaman ayrılmaz."
+      },
+      {
+        "title": "Bildirimler",
+        "content": "Uygulama, yerel push bildirimleri göndermek için izin isteyebilir (ör. odak seansı bittiğinde veya günlük hatırlatıcı olarak). Bu bildirimler tamamen cihazınızda oluşturulur. Herhangi bir sunucuya bildirim verisi gönderilmez."
+      },
+      {
+        "title": "Reklamcılık",
+        "content": "Uygulama, reklam göstermek için Google AdMob kullanır. Google, gizlilik politikalarında açıklandığı gibi belirli bilgileri toplayabilir. Reklamlar, Google'ın politikalarına uygun olarak gösterilir ve cihaz ayarlarınıza göre kişiselleştirilebilir."
+      },
+      {
+        "title": "Analitik",
+        "content": "Herhangi bir analitik hizmet kullanmıyoruz. Uygulamayı nasıl kullandığınıza dair hiçbir görüşümüz yok."
+      },
+      {
+        "title": "Üçüncü Taraf Hizmetler",
+        "content": "Entegre edilen tek üçüncü taraf hizmet, reklamlar için Google AdMob'dur. Verileri nasıl işledikleri hakkında bilgi için lütfen Google'ın gizlilik politikasına bakın."
+      },
+      {
+        "title": "Çocukların Gizliliği",
+        "content": "Bu uygulama, 13 yaşın altındaki çocuklardan bilerek bilgi toplamaz. Uygulama, çocuklara yönelik veya onlardan veri toplayan herhangi bir işlev içermez."
+      },
+      {
+        "title": "İletişim",
+        "content": "Bu gizlilik politikası hakkında sorularınız varsa, lütfen App Store veya Google Play'deki uygulamanın destek sayfasından bizimle iletişime geçin."
+      }
+    ]
+  },
+  "footer": {
+    "madeWith": "Sevgiyle yapıldı",
+    "for": "Bengisu için",
+    "rights": "Tüm hakları saklıdır",
+    "links": {
+      "privacy": "Gizlilik Politikası",
+      "github": "GitHub",
+      "appStore": "App Store"
+    }
+  }
+}

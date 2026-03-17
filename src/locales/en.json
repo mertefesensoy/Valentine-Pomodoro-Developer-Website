@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "features": "Features",
+    "screenshots": "Screenshots",
+    "tech": "Tech",
+    "privacy": "Privacy",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Valentine Pomodoro",
+    "tagline": "A Pomodoro timer built with love",
+    "subtitle": "Stay focused. Take breaks. Feel loved.",
+    "downloadIos": "Download on the App Store",
+    "builtFor": "Built with ♥ for Bengisu",
+    "version": "Version 1.2.4"
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Everything you need for productive, heartfelt focus sessions",
+    "items": [
+      {
+        "title": "Drift-Free Timer",
+        "desc": "Timestamp-based engine stays accurate even when the app is backgrounded. No lost seconds."
+      },
+      {
+        "title": "Love Notes",
+        "desc": "Personalized messages appear after each focus session to keep you motivated and smiling."
+      },
+      {
+        "title": "Stats & Streaks",
+        "desc": "Track daily goals, view 7-day bar charts, and maintain your hard-earned focus streaks."
+      },
+      {
+        "title": "Dark Mode",
+        "desc": "Full system-aware dark theme with warm red and lavender accents, easy on the eyes."
+      },
+      {
+        "title": "100% Private",
+        "desc": "No servers, no tracking, no accounts. All data stays on your device in AsyncStorage."
+      },
+      {
+        "title": "Fully Customizable",
+        "desc": "Adjust timer durations, haptics, reminders, notification sounds, and more to fit your flow."
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "App Screens",
+    "subtitle": "A beautiful, focused experience on every screen",
+    "screens": ["Timer", "Stats", "Love Notes", "Settings"]
+  },
+  "tech": {
+    "title": "Under the Hood",
+    "subtitle": "Built with modern mobile technologies",
+    "version": "Version",
+    "stack": "Tech Stack",
+    "decisions": "Architecture Decisions",
+    "decisionItems": [
+      "Timestamp-based timer — immune to JS setInterval drift during backgrounding",
+      "Idempotency tracking — prevents double-counting completed sessions",
+      "Ad queue management — non-overlapping overlays for love notes, ads, and popups",
+      "Midnight attribution — sessions started before midnight count for the correct day"
+    ],
+    "github": "View Source on GitHub",
+    "openSource": "Open Source"
+  },
+  "privacySection": {
+    "title": "Your Privacy Matters",
+    "desc": "Valentine Pomodoro collects zero data. Everything stays on your device — your focus sessions, your love notes, your streaks. Always.",
+    "readMore": "Read Full Privacy Policy"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "intro": "Valentine Pomodoro is a 100% local application. We do not collect, transmit, or store any personal data on external servers.",
+    "sections": [
+      {
+        "title": "Data Collection",
+        "content": "We do not collect any personal information. All app data — including timer settings, statistics, love notes, and preferences — is stored locally on your device using AsyncStorage and never leaves your device."
+      },
+      {
+        "title": "Notifications",
+        "content": "The app may request permission to send local push notifications (e.g., when a focus session ends or as a daily reminder). These notifications are generated entirely on your device. No notification data is sent to any server."
+      },
+      {
+        "title": "Advertising",
+        "content": "The app uses Google AdMob to display advertisements. Google may collect certain information as described in their privacy policy. Ads are displayed according to Google's policies and may be personalized based on your device settings."
+      },
+      {
+        "title": "Analytics",
+        "content": "We do not use any analytics services. We have no insight into how you use the app."
+      },
+      {
+        "title": "Third-Party Services",
+        "content": "The only third-party service integrated is Google AdMob for advertisements. Please refer to Google's privacy policy for information on how they handle data."
+      },
+      {
+        "title": "Children's Privacy",
+        "content": "This app does not knowingly collect information from children under 13. The app contains no functionality that targets or collects data from children."
+      },
+      {
+        "title": "Contact",
+        "content": "If you have any questions about this privacy policy, please contact us at the app's support page on the App Store or Google Play."
+      }
+    ]
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "for": "for Bengisu",
+    "rights": "All rights reserved",
+    "links": {
+      "privacy": "Privacy Policy",
+      "github": "GitHub",
+      "appStore": "App Store"
+    }
+  }
+}
