@@ -23,10 +23,13 @@ export const metadata: Metadata = {
     "focus",
     "iOS app",
   ],
+  metadataBase: new URL("https://valentine-pomodoro-developer-websit.vercel.app"),
   openGraph: {
     title: "Valentine Pomodoro",
     description: "A Pomodoro timer built with love",
     type: "website",
+    url: "https://valentine-pomodoro-developer-websit.vercel.app",
+    images: [{ url: "/icon.png" }],
   },
 };
 

@@ -46,14 +46,18 @@ export default function Footer() {
             {f.links.privacy}
           </Link>
           <a
-            href="#"
+            href="https://github.com/mertefesensoy/valentine-pomodoro"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-white transition-colors"
             style={{ color: "#888" }}
           >
             {f.links.github}
           </a>
           <a
-            href="#"
+            href="https://apps.apple.com/tr/app/valentine-pomodoro/id6757491918?l=tr"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-white transition-colors"
             style={{ color: "#888" }}
           >
