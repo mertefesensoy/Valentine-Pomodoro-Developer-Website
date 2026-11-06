@@ -54,7 +54,7 @@ export default function PrivacyPage() {
                 {i + 1}. {section.title}
               </h2>
               <p
-                className="leading-relaxed text-sm"
+                className="leading-relaxed text-sm whitespace-pre-line"
                 style={{ color: "var(--color-text-muted)" }}
               >
                 {section.content}

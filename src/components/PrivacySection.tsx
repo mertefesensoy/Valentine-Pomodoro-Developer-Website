@@ -75,12 +75,7 @@ export default function PrivacySection() {
 
         {/* Trust badges */}
         <div className="flex flex-wrap justify-center gap-3 mb-8">
-          {[
-            "No tracking",
-            "No accounts",
-            "No servers",
-            "100% local",
-          ].map((badge) => (
+          {p.badges.map((badge) => (
             <span
               key={badge}
               className="text-xs px-4 py-1.5 rounded-full font-bold"
