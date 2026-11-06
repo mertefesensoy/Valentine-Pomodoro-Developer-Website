@@ -35,8 +35,8 @@
         "desc": "Full system-aware dark theme with warm red and lavender accents, easy on the eyes."
       },
       {
-        "title": "100% Private",
-        "desc": "No servers, no tracking, no accounts. All data stays on your device in AsyncStorage."
+        "title": "Private by Default",
+        "desc": "No account needed. Your timer, stats and notes stay on your phone unless you choose to pair with your partner."
       },
       {
         "title": "Fully Customizable",
@@ -47,7 +47,12 @@
   "screenshots": {
     "title": "App Screens",
     "subtitle": "A beautiful, focused experience on every screen",
-    "screens": ["Timer", "Stats", "Love Notes", "Settings"]
+    "screens": [
+      "Timer",
+      "Stats",
+      "Love Notes",
+      "Settings"
+    ]
   },
   "tech": {
     "title": "Under the Hood",
@@ -66,41 +71,55 @@
   },
   "privacySection": {
     "title": "Your Privacy Matters",
-    "desc": "Valentine Pomodoro collects zero data. Everything stays on your device — your focus sessions, your love notes, your streaks. Always.",
-    "readMore": "Read Full Privacy Policy"
+    "desc": "You don’t need an account. Your focus sessions, love notes and streaks stay on your phone, and an account exists only if you pair with your partner. You can delete it in the app.",
+    "readMore": "Read Full Privacy Policy",
+    "badges": [
+      "No account needed",
+      "Works offline",
+      "Delete any time",
+      "Non-personalised ads"
+    ]
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: March 2026",
-    "intro": "Valentine Pomodoro is a 100% local application. We do not collect, transmit, or store any personal data on external servers.",
+    "lastUpdated": "Last updated: 6 November 2026",
+    "intro": "Valentine Pomodoro is a focus timer made by Mert Efe Şensoy. This policy says what the app does with your data on iPhone. Some of it starts with version 1.5.0, and says so. Versions before 1.5.0 have no accounts and send nothing to our servers.",
     "sections": [
       {
-        "title": "Data Collection",
-        "content": "We do not collect any personal information. All app data — including timer settings, statistics, love notes, and preferences — is stored locally on your device using AsyncStorage and never leaves your device."
+        "title": "The short version",
+        "content": "• You don't need an account. Your timer, stats and notes stay on your phone.\n• An account exists only if you pair with your partner, and you can delete it in the app.\n• From 1.5.0, the app sends an anonymous report of how quickly it opened. You can turn that off.\n• Ads are non-personalised, and the app doesn't track you across other apps.\n• We don't sell your data."
       },
       {
-        "title": "Notifications",
-        "content": "The app may request permission to send local push notifications (e.g., when a focus session ends or as a daily reminder). These notifications are generated entirely on your device. No notification data is sent to any server."
+        "title": "On your phone",
+        "content": "Your timer settings, session stats, goal and streak, love notes and preferences are stored on your iPhone. Only what this policy lists leaves it. Deleting the app deletes them.\nNotifications are scheduled on your phone and don't go through any server. The app doesn't use your location."
       },
       {
-        "title": "Advertising",
-        "content": "The app uses Google AdMob to display advertisements. Google may collect certain information as described in their privacy policy. Ads are displayed according to Google's policies and may be personalized based on your device settings."
+        "title": "Start-up timings (from 1.5.0)",
+        "content": "After a normal launch, the app sends one report. It holds how long the app took to open, rounded to 10 milliseconds, which of two start-up orders your phone was given at random, your iPhone model, your iOS version and the app's build number. The server adds the date.\nA report has no name, no account, no device identifier and nothing you wrote, and nothing links one report to another. As with any connection, our hosting provider handles your IP address to deliver the report, and may keep it for a short time in its request logs. The address isn't stored in the report.\nReports are deleted after 90 days. To stop them, turn off Share start-up timings in Settings, under Privacy. With it off, no report is sent."
       },
       {
-        "title": "Analytics",
-        "content": "We do not use any analytics services. We have no insight into how you use the app."
+        "title": "If you pair with your partner (from 1.5.0)",
+        "content": "You need an account only to pair. You make it with Sign in with Apple, and we keep:\n• Your Apple sign-in: an identifier Apple creates for this app, when your account was made and when you last signed in. The sign-in system also keeps the IP address and app details of each signed-in session. We don't ask Apple for your email address. If Apple includes it anyway, it's stored here.\n• Your name: what you type, up to 60 characters. You can change it in Settings.\n• Your time zone and language.\n• Your pairing: who you're paired with, and since when.\n• Your codes: the 6-character code you send your partner, which lasts 24 hours. An unused code is deleted about a day after it expires, and a used one stays until you delete your account. We also count wrong codes for an hour, to limit guessing.\n• Your days: each day's focus time, sessions and goal, reported as you go while you're paired. Only today's and yesterday's are sent, so your earlier history stays on your phone.\n• Your notes to your partner: what you write, up to 280 characters, when you wrote it and when it was shown.\nWhat your partner sees: your name, today's sessions and focus time, your goal and whether you reached it, when your day last updated, and the notes you send them. They don't see your earlier days.\nData travels encrypted, and the database's rules keep it between you and your partner. Notes aren't end-to-end encrypted, though, so the person running the service could read them. We look at them only if we need to fix a problem with the service, or if the law requires it."
       },
       {
-        "title": "Third-Party Services",
-        "content": "The only third-party service integrated is Google AdMob for advertisements. Please refer to Google's privacy policy for information on how they handle data."
+        "title": "Unpairing, deleting and downloading",
+        "content": "All three are in Settings.\n• Unpair. You stop seeing each other's days, and the notes between you are deleted. You each keep your own days.\n• Delete account. Your name, days, codes, pairing and the notes between you and your partner are deleted straight away, and we ask Apple to revoke this app's sign-in. Your partner keeps their own days, and sees that you've gone. Backups can hold deleted data for up to 7 days, until they expire. The timer, stats and notes on your phone stay.\n• Download my data. Gives you a JSON file with your profile, your pairing date and your partner's name, your days, and the notes you wrote and received.\nWe keep an account until you delete it. If you can't get into the app, write to us."
       },
       {
-        "title": "Children's Privacy",
-        "content": "This app does not knowingly collect information from children under 13. The app contains no functionality that targets or collects data from children."
+        "title": "Where it's kept",
+        "content": "Accounts and start-up reports are kept by Supabase, on Amazon Web Services in Frankfurt, Germany. If you live outside the European Union, including in Turkey, this means your data leaves your country."
       },
       {
-        "title": "Contact",
-        "content": "If you have any questions about this privacy policy, please contact us at the app's support page on the App Store or Google Play."
+        "title": "Other companies",
+        "content": "• Supabase hosts the accounts and reports above.\n• Apple runs Sign in with Apple. The app also asks the App Store for its newest version number, and Fly Mode's map comes from Apple Maps.\n• Google AdMob shows the banner on the Stats screen and an occasional full-screen ad. The app asks for non-personalised ads only, and doesn't ask to track you. Google's software still receives information such as your IP address and device details, to show and count ads and to prevent fraud. See Google's privacy policy (https://policies.google.com/privacy) and how Google uses information from apps (https://policies.google.com/technologies/partner-sites).\nThe app has no third-party analytics. The older Android version, 1.3.1, has no accounts or reports, and checks GitHub Pages for updates."
+      },
+      {
+        "title": "Children",
+        "content": "Valentine Pomodoro isn't meant for children under 13, and we don't knowingly collect their data. If you think a child has made an account, write to us and we'll delete it."
+      },
+      {
+        "title": "Changes and contact",
+        "content": "If this policy changes, this page changes with it, and so does the date at the top.\nQuestions, or anything you can't do in the app: sensoymertefe@gmail.com"
       }
     ]
   },
