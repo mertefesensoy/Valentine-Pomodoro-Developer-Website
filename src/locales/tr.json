@@ -103,7 +103,7 @@
       },
       {
         "title": "Eşleşmeyi kaldırmak, silmek ve indirmek",
-        "content": "Üçü de Ayarlar'dadır.\n• Eşleşmeyi kaldır. Birbirinizin gününü artık göremezsiniz ve aranızdaki notlar silinir. İkiniz de kendi günlerinizi saklarsınız.\n• Hesabı sil. Adın, günlerin, kodların, eşleşmen ve partnerinle aranızdaki notlar hemen silinir ve Apple'dan bu uygulamanın giriş iznini iptal etmesini isteriz. Partnerin kendi günlerini saklar ve ayrıldığını görür. Silinen veriler, yedeklerin süresi dolana kadar en fazla 7 gün yedeklerde kalabilir. Telefonundaki zamanlayıcın, istatistiklerin ve notların kalır.\n• Verilerimi indir. Profilini, eşleşme tarihini ve partnerinin adını, günlerini, yazdığın ve aldığın notları içeren bir JSON dosyası verir.\nHesabını silene kadar saklarız. Uygulamaya giremiyorsan bize yaz."
+        "content": "Üçü de Ayarlar'dadır.\n• Eşleşmeyi kaldır. Birbirinizin gününü artık göremezsiniz ve aranızdaki notlar silinir. İkiniz de kendi günlerinizi saklarsınız.\n• Hesabı sil. Adın, günlerin, kodların, eşleşmen ve partnerinle aranızdaki notlar hemen silinir ve Apple'dan bu uygulamanın giriş iznini iptal etmesini isteriz. Partnerin kendi günlerini saklar ve ayrıldığını görür. Telefonundaki zamanlayıcın, istatistiklerin ve notların kalır.\n• Verilerimi indir. Profilini, eşleşme tarihini ve partnerinin adını, günlerini, yazdığın ve aldığın notları içeren bir JSON dosyası verir.\nHesabını silene kadar saklarız. Uygulamaya giremiyorsan bize yaz."
       },
       {
         "title": "Nerede saklanır",

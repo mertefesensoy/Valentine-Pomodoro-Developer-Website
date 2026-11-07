@@ -103,7 +103,7 @@
       },
       {
         "title": "Unpairing, deleting and downloading",
-        "content": "All three are in Settings.\n• Unpair. You stop seeing each other's days, and the notes between you are deleted. You each keep your own days.\n• Delete account. Your name, days, codes, pairing and the notes between you and your partner are deleted straight away, and we ask Apple to revoke this app's sign-in. Your partner keeps their own days, and sees that you've gone. Backups can hold deleted data for up to 7 days, until they expire. The timer, stats and notes on your phone stay.\n• Download my data. Gives you a JSON file with your profile, your pairing date and your partner's name, your days, and the notes you wrote and received.\nWe keep an account until you delete it. If you can't get into the app, write to us."
+        "content": "All three are in Settings.\n• Unpair. You stop seeing each other's days, and the notes between you are deleted. You each keep your own days.\n• Delete account. Your name, days, codes, pairing and the notes between you and your partner are deleted straight away, and we ask Apple to revoke this app's sign-in. Your partner keeps their own days, and sees that you've gone. The timer, stats and notes on your phone stay.\n• Download my data. Gives you a JSON file with your profile, your pairing date and your partner's name, your days, and the notes you wrote and received.\nWe keep an account until you delete it. If you can't get into the app, write to us."
       },
       {
         "title": "Where it's kept",
